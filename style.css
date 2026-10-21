@@ -18,6 +18,20 @@ body {
     text-align: center;
 }
 
+.project-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 20px;
+    border-left: 4px solid #16a085;
+}
+
+body.dark-mode .project-item {
+    background-color: #3d3d3d;
+    border-left: 4px solid #00ffcc;
+}
+
 ul {
     text-align: left;
     display: inline-block;
